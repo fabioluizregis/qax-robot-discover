@@ -13,7 +13,9 @@ https://www.python.org/
 
 
 Running all tests
+
 robot -d logs tests/signup.robot
 
 Running selecting browser
+
 robot -d ./log -v BROWSER:firefox tests/signup.robot
